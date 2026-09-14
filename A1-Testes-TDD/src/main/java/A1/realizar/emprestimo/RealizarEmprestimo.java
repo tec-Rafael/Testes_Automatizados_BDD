@@ -1,4 +1,4 @@
-package A1.cadastrar.livro.realizar.emprestimo;
+package A1.realizar.emprestimo;
 
 import A1.cadastrar.livro.Livro;
 
