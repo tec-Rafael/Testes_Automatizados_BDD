@@ -23,7 +23,11 @@ public class Devolucao {
 
 
     public boolean registrarDevolucao() {
-        return false;
+        livro.devolver();
+        registrada = true;
+        multaGerada = LocalDate.now().isAfter(dataDevolucaoPrevista);
+
+        return true;
     }
 
     public boolean isRegistrada() {

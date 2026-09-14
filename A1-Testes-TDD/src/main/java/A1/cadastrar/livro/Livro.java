@@ -22,6 +22,9 @@ public class Livro {
         disponivel = true;
         return true;
     }
+    public void devolver() {
+        disponivel = true;
+    }
 
     private boolean tituloValido() {
         return titulo != null && !titulo.isBlank();
